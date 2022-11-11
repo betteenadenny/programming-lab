@@ -1,8 +1,8 @@
-a=input("Enter a List of Numbers : ")
-a=a.split(" ")
-b=[]
-for i in a:
-	b.append(int(i))
-c=["Over" if x>100 else x for x in b]
-print(c)
-
+value=int(input("total number: "))
+a=[]
+for i in range(value):
+    num=int(input("enter integers: "))
+    if(num>100):
+        num="over"
+    a.append(num)
+print(a)
