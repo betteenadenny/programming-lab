@@ -1,4 +1,5 @@
 a=input("Enter A String : ")
+a=a.lower()
 b=""
 for i in a:
     if i==a[0] and i not in b:
@@ -7,4 +8,4 @@ for i in a:
         b=b+"$"
     else:
         b=b+i
-print(b)
+print("Expected output: ", b)
