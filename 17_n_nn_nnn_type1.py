@@ -1,3 +1,5 @@
-n=int(input("Enter A Number N : "))
-m=n+(n*n)+(n*n*n)
-print("N + NN + NNN = ",m)
+N =(input("Enter a number : "))
+NN=N+N
+NNN=N+N+N
+result=int(N)+int(NN)+int(NNN)
+print(N,"+",NN,"+",NNN," = ",result)
