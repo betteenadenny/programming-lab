@@ -1,5 +1,0 @@
-n=input("Enter A Number N : ")
-a=int(n)
-b=int(n+n)
-c=int(n+n+n)
-print("N + NN + NNN = ",a+b+c)
